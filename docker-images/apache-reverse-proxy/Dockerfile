@@ -1,7 +1,7 @@
 FROM php:5.6-apache
 
 RUN apt-get update && \
-    apt-get install nano
+    apt-get install -y vim
 
 COPY conf/ /etc/apache2
 
